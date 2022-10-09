@@ -1,0 +1,25 @@
+{
+  "name": "vuejs-extends-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "unit": "jest --config test/unit/jest.conf.js --coverage",
+    "test": "npm run unit",
+    "lint": "eslint --ext .js,.vue src test/unit",
+    "build": "node build/build.js"
+  },
+  "dependencies": {
+    "vue": "^2.5.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "keywords": []
+}
